@@ -4,7 +4,7 @@ const productsContainer = document.querySelector('.product-container');
 
 const displayProducts = () => {
   if (filteredProducts.length < 1) {
-    productsContainer.innerHTML = `<h6>Sorry, no products matched your search</h6>`;
+    productsContainer.innerHTML = `<h2>Sorry, no products matched your search</h2>`;
     return;
   }
 
